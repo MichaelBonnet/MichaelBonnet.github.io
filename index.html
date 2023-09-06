@@ -73,7 +73,7 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Hello! I'm Michael Bonnet. I am a Flight Software Engineer at Terran Orbital, student at the University of Alabama (MS Aerospace Engineering, 2025), and alumnus of the University of Texas at Arlington (Computer Science, May 2022).
+                        Hello! I'm Michael Bonnet. I am a Flight Software Engineer at Turion Space and alumnus of the University of Texas at Arlington (Computer Science, May 2022).
                     </p>
 		    <br><br>
 		    <p>
@@ -81,7 +81,7 @@
 		    </p>
 		    <br><br>
 		    <p>
-			When not working or studying, I enjoy learning about aviation, doing personal AI/ML/robotics projects, watching and playing basketball, gaming, exercising, and volunteering.
+			When not working or studying, I enjoy learning about aviation, doing personal AI/ML/robotics projects, climbing and camping, gaming, and volunteering.
 		    </p>
                 </div>
             </div>
@@ -92,22 +92,43 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="May 2022 – Present">
+            <div data-date="January 2023 – Present">
+                <h3>Turion Space</h3>
+                <h4>Flight Software Engineer | Irvine, CA</h4>
+                <p>
+                    <ul>
+                        <li>
+                        Designed and hardware-tested payload software in embedded C and C++ for DROID-001, a small photoreconnaissance spacecraft launched to low-earth orbit in June 2023
+                        </li>
+                        <li>
+                        Developed custom Mission Control software using the Ruby on Rails-based COSMOS OpenC3 framework hosted on Amazon Web Services used for on-orbit spacecraft operations
+                        </li>
+                        <li>
+                        Operated DROID.001 spacecraft as certified Mission Operator and Flight Director throughout launch and early orbit phase (LEOP) of the mission
+                        </li>
+                        <li>
+                        Built Turion Space's proprietary STARFIRE API in Go using the Echo framework and a Postgres backend database for cataloguing and distributing orbital space domain awareness data
+                        </li>
+                    </ul>
+                </p>
+            </div>
+		
+		<div data-date="May 2022 – January 2023">
                 <h3>Terran Orbital</h3>
                 <h4>Flight Software Engineer | Irvine, CA</h4>
                 <p>
                     <ul>
                         <li>
-                        Configured custom Linux-based operating systems for NASA Pathfinder Technology Demonstrator satellites in low-earth orbit and for customers using Terran Orbital-designed satellites for their own missions
+                        Configured custom Linux-based operating systems for NASA Pathfinder Technology Demonstrator satellites in low-earth orbit and for customers using Terran Orbital-designed satellite buses for their own missions
                         </li>
                         <li>
-                        Designed, unit tested, and deployed performant C++ embedded software for orbital satellite solar panel arrays
+                        Designed, unit tested, and deployed performant C++ embedded software for orbital satellite solar panel arrays and star trackers
                         </li>
                         <li>
                         Tested, evaluated, and debugged flight software and hardware on projects totaling dozens of spacecraft
                         </li>
                         <li>
-                        Supported launches of company and customer payloads to low-earth orbit (LEO) and translunar trajectories with flight software troubleshooting both in mission control and on call
+                        Supported launches of company and customer payloads to low-earth orbit (LEO) and translunar trajectories with flight software troubleshooting both in the Mission Control Center and on call
                         </li>
                     </ul>
                 </p>
@@ -184,7 +205,7 @@
 
     <div id="education">
         <h2 class="heading">Education</h2>
-        <div class="education-block">
+<!--         <div class="education-block">
             <h3>University of Alabama</h3>
             <span class="education-date">January 2023 - Est. August 2025</span>
             <h4>Master of Science in Aerospace Engineering and Mechanics</h4>
@@ -196,7 +217,7 @@
                     Pursuing dual focus on space systems engineering and controls
                 </li>
             </ul>
-        </div>
+        </div> -->
         <!-- End .education-block -->
 	    
         <div class="education-block">
@@ -204,11 +225,21 @@
             <span class="education-date">Jan 2019 - May 2022</span>
             <h4>Bachelor of Science in Computer Science</h4>
             <p>
-                Graduating with CSE Department's Certificate in Unmanned Vehicle Systems, a multi-course track covering unmanned vehicle system theory and design (including UGVs and UASs/UAVs) as well as extensive study of Artificial Intelligence, Machine Learning, and Computer Vision.
-                <br><br>
                 For senior project, led a six-engineer team in the design, construction, and demonstration of a hexacopter UAV system that delivers a radio-controlled penetration testing platform - a Raspberry Pi running Kali Linux - to the vicinity of a target network. The operator then directs the penetration testing Raspberry Pi to scan the target network for vulnerabilities and exploit any that are found.
                 <br><br>
                 Coursework: Artificial Intelligence, Machine Learning, Computer Vision, Data Science, Unmanned Vehicle Systems, Algorithms & Data Structures, RF Engineering, Software Engineering, C, C++, Java, ARM Assembly
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+	<div class="education-block">
+            <h3>University of Texas at Arlington</h3>
+            <span class="education-date">Jan 2019 - May 2022</span>
+            <h4>Certificate in Unmanned Vehicle Systems</h4>
+            <p>
+                Graduated with CSE Department's Certificate in Unmanned Vehicle Systems, a multi-course track covering unmanned vehicle system theory and design (including UGVs and UASs/UAVs) as well as extensive study of Artificial Intelligence, Machine Learning, and Computer Vision.
+                <br><br>
+                Coursework: Artificial Intelligence, Machine Learning, Computer Vision, Intro to Unmanned Vehicle Systems, Unmanned Vehicle Systems Design
             </p>
         </div>
         <!-- End .education-block -->
@@ -264,6 +295,9 @@
                                 <li>
                                     Robot 2, ”Rehoboam”, using color and ultrasonic sensors, solved a similar maze with unknown initial position or maze configuration, with the goal of finding an object in the maze and pushing it out of position
                                 </li>
+				<li>
+				    Robots 3-6, "Babylon I, II, III, & IV", implemented the four behaviors of <a href="https://en.wikipedia.org/wiki/Braitenberg_vehicle">Braitenberg Vehicles</a>, changing their velocity and heading based on where they perceive "light" signals to be coming from via ultrasonic and IR sensors.
+				<li>
                             </ul>
                         </p>
                         <a href="https://github.com/MichaelBonnet/CSE4360-Projects">View Project</a>
@@ -281,8 +315,14 @@
         <ul>
             <li>C++</li>
 	    <li>C</li>
-	    <li>Linux</li>
-            <li>Python</li>
+	    <li>Go</li>
+	    <li>Python</li>
+	    <li>TypeScript</li>
+	    <li>JavaScript</li>
+            <li>Linux</li>
+	    <li>Spacecraft Software Design</li>
+	    <li>Spacecraft Mission Operations</li>
+	    <li>Spacecraft Mission Control Software</li>
             <li>Robotics</li>
             <li>Unmanned Vehicle Systems</li>
             <li>MATLAB</li>
@@ -291,8 +331,6 @@
             <li>Machine Learning</li>
             <li>Computer Vision</li>
             <li>TensorFlow</li>
-            <li>Keras</li>
-            <li>scikit-learn</li>
             <li>Pandas</li>
             <li>Numpy</li>
             <li>Matplotlib</li>
