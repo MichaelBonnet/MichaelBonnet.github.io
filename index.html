@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Michael Bonnet</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -72,17 +72,11 @@
                     <h2 class="heading">About Me</h2>
                 </div>
                 <div class="col-md-8">
-                    <p>
-                        Hello! I'm Michael Bonnet. I am a Spacecraft Software Engineer and alumnus of the University of Texas at Arlington (Computer Science, May 2022).
-                    </p>
-		    <br><br>
-		    <p>
-			I'm an enthusiast in software applications for space and aerospace, especially in the realm of autonomy. I fell in love with my code making real-life things move and haven't looked back. Having done enterprise projects in modeling and simulation, embedded, cloud, and mission control/fullstack, my skills and interests lie primarily in the fields of autonomy, aerospace, and robotics. My strong work ethic, interpersonal skills, industry experience, and technical prowess make me a great team member, student, and learner.
-		    </p>
-		    <br><br>
-		    <p>
-			When not working or studying, I enjoy learning about aviation, doing personal AI/ML/robotics projects, climbing and camping, gaming, and volunteering.
-		    </p>
+                    <p>Hello! I'm Michael Bonnet. I am a Spacecraft Software Engineer and alumnus of the University of Texas at Arlington (Computer Science and Unmanned Vehicle Systems, May 2022).</p>
+                    <br><br>
+                    <p>I'm an enthusiast in software applications for space and aerospace, especially in the realm of autonomy. I fell in love with my code making real-life things move and haven't looked back. Having done enterprise projects in modeling and simulation, embedded, cloud, and mission control/fullstack, my skills and interests lie primarily in the fields of autonomy, aerospace, and robotics. My strong work ethic, interpersonal skills, industry experience, and technical prowess make me a great team member, student, and learner.</p>
+                    <br><br>
+                    <p>When not working or studying, I enjoy learning about aviation, doing personal robotics and open source projects, climbing and camping, and volunteering.</p>
                 </div>
             </div>
         </div>
@@ -92,115 +86,91 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="January 2023 – January 2024">
+
+            <!-- Apex Space -->
+            <div data-date="May 2024 - Present">
+                <h3>Apex Space</h3>
+                <h4>Spacecraft Software Engineer | Los Angeles, CA</h4>
+                <p>
+                    <ul>
+                        <li>Participated in trade studies, design, and design reviews for Apex Space's flight software and software-in-the-loop (SIL) frameworks, collaborating with systems engineering, GNC engineering, and hardware-in-the-loop engineering teams</li>
+                        <li>Designed, developed, and tested MAX flight software (C++) for Apex's varied satellite bus products</li>
+                        <li>Designed and debugged STK spacecraft dynamics simulation runs for mission analysis, mission planning, and regression/Monte Carlo tests</li>
+                        <li>Operated Aries SN-1 "Call to Adventure" spacecraft as Mission Operator throughout launch and early orbit phase and standard operations</li>
+                    </ul>
+                </p>
+            </div>
+            
+            <!-- Turion Space -->
+            <div data-date="January 2023 - January 2024">
                 <h3>Turion Space</h3>
                 <h4>Flight Software Engineer | Irvine, CA</h4>
                 <p>
                     <ul>
-                        <li>
-                        Designed and hardware-tested payload software in embedded C and C++ for DROID-001, a small photoreconnaissance spacecraft launched to low-earth orbit in June 2023
-                        </li>
-                        <li>
-                        Developed custom Mission Control software using the Ruby on Rails-based COSMOS OpenC3 framework hosted on Amazon Web Services used for on-orbit spacecraft operations
-                        </li>
-                        <li>
-                        Operated DROID.001 spacecraft as certified Mission Operator and Flight Director throughout launch and early orbit phase (LEOP) of the mission
-                        </li>
-                        Built Turion Space’s proprietary STARFIRE API in Go using the Echo framework and a Postgres backend database for cataloguing and distributing orbital space domain awareness data, deploying to AWS
-			</li>
-                        <li>
-			Developed Turion Space’s internal spacecraft dynamics simulation library, enabling safe operation of a constellation of near-real-time space-to-space photoreconnaisance satellites
-			</li>
-                        <li>
-			Implemented astrodynamics and astronomical algorithms in a library for widespread internal company use
-			</li>
+                        <li>Designed and hardware-tested payload software in embedded C and C++ for DROID-001, a small photoreconnaissance spacecraft launched to low-earth orbit in June 2023</li>
+                        <li>Developed custom Mission Control software using the Ruby on Rails-based COSMOS OpenC3 framework hosted on Amazon Web Services used for on-orbit spacecraft operations</li>
+                        <li>Operated DROID.001 spacecraft as certified Mission Operator and Flight Director throughout launch and early orbit phase (LEOP) of the mission</li>
+                        <li>Built Turion Space's proprietary STARFIRE API in Go using the Echo framework and a Postgres backend database for cataloguing and distributing orbital space domain awareness data, deploying to AWS</li>
+                        <li>Developed Turion Space's internal spacecraft dynamics simulation library, enabling safe operation of a constellation of near-real-time space-to-space photoreconnaisance satellites</li>
+                        <li>Implemented astrodynamics and astronomical algorithms in a library for widespread internal company use</li>
                     </ul>
                 </p>
             </div>
-		
-		<div data-date="May 2022 – January 2023">
+        
+            <!-- Terran Orbital -->
+            <div data-date="May 2022 - January 2023">
                 <h3>Terran Orbital</h3>
                 <h4>Flight Software Engineer | Irvine, CA</h4>
                 <p>
                     <ul>
-                        <li>
-                        Configured custom Linux-based operating systems for NASA Pathfinder Technology Demonstrator satellites in low-earth orbit and for customers using Terran Orbital-designed satellite buses for their own missions
-                        </li>
-                        <li>
-                        Designed, unit tested, and deployed performant C++ embedded software for orbital satellite solar panel arrays and star trackers
-                        </li>
-                        <li>
-                        Tested, evaluated, and debugged flight software and hardware on projects totaling dozens of spacecraft
-                        </li>
-                        <li>
-                        Supported launches of company and customer payloads to low-earth orbit (LEO) and translunar trajectories with flight software troubleshooting both in the Mission Control Center and on call
-                        </li>
+                        <li>Configured custom Linux-based operating systems for NASA Pathfinder Technology Demonstrator satellites in low-earth orbit and for customers using Terran Orbital-designed satellite buses for their own missions</li>
+                        <li>Wrote, tested, and flew drivers for NASA Pathfinder Technology Demonstrator 3 ("T-BIRD") and 4 ("LISA-T") emerging technology demonstration 6U satellites</li>
+                        <li>Designed, developed, unit tested, and deployed performant C++ embedded software for orbital satellite solar panel arrays and star trackers</li>
+                        <li>Tested, evaluated, and debugged flight software and payload hardware on projects totaling dozens of spacecraft</li>
+                        <li>Supported launches of company and customer payloads to low-earth orbit (LEO) and translunar trajectories with flight software troubleshooting both in the Mission Control Center and on call</li>
                     </ul>
                 </p>
             </div>
-	    
-            <div data-date="October 2021 – May 2022">
+        
+            <!-- LM MFC -->
+            <div data-date="October 2021 - May 2022">
                 <h3>Lockheed Martin Missiles and Fire Control</h3>
                 <h4>Software Engineer Intern | Grand Prairie, TX</h4>
                 <p>
                     <ul>
-                        <li>
-                        Worked as a student intern with Lockheed Martin Missiles and Fire Control within Lockheed's College Work Experience Program (CWEP) partnership with UT Arlington
-                        </li>
-                        <li>
-                        Deployed, integrated, and maintained Jira issue tracking software for Missiles and Fire Control division
-                        </li>
-                        <li>
-                        Improved digital transformation principles and practices in support of IIOT (Industrial Internet of Things) and production manufacturing
-                        </li>
-                        <li>
-                        Integrated and deployed development solutions with Amazon Web Services (AWS) Cloud
-                        </li>
+                        <li>Worked as a student intern with Lockheed Martin Missiles and Fire Control within Lockheed's College Work Experience Program (CWEP) partnership with UT Arlington</li>
+                        <li>Deployed, integrated, and maintained Jira issue tracking software for Missiles and Fire Control division</li>
+                        <li>Improved digital transformation principles and practices in support of IIOT (Industrial Internet of Things) and production manufacturing</li>
+                        <li>Integrated and deployed development solutions with Amazon Web Services (AWS) Cloud</li>
                     </ul>
                 </p>
             </div>
 
-            <div data-date="May 2021 – October 2021">
+            <!-- LM Aeronautics -->
+            <div data-date="May 2021 - October 2021">
                 <h3>Lockheed Martin Aeronautics</h3>
                 <h4>Software Engineer Intern | Fort Worth, TX</h4>
                 <p>
                     <ul>
-                        <li>
-                        Earned the privilege of working part-time during the Fall 2021 semester, beyond the initial summer-long full-time internship
-                        </li>
-                        <li>
-                        Researched DevOps tools for use by my team and presented research report that has lead to changes in development workflow using the tools recommended
-                        </li>
-                        <li>
-                        Developed practices and documentation for properly using Git version control where it hadn’t been fully taken advantage of before, leading to changes in development workflow and code review practices
-                        </li>
-                        <li>
-                        Developed data integration software using Java and Java-based tools, reducing time spent by Aeronautics engineers on getting the data needed for critical work
-                        </li>
+                        <li>Earned the privilege of working part-time during the Fall 2021 semester, beyond the initial summer-long full-time internship</li>
+                        <li>Researched DevOps tools for use by my team and presented research report that has lead to changes in development workflow using the tools recommended</li>
+                        <li>Developed practices and documentation for properly using Git version control where it hadn't been fully taken advantage of before, leading to changes in development workflow and code review practices</li>
+                        <li>Developed data integration software using Java and Java-based tools, reducing time spent by Aeronautics engineers on getting the data needed for critical work</li>
                     </ul>
                 </p>
             </div>
 
-            <div data-date="January 2020 – May 2020">
+            <!-- MineralWare -->
+            <div data-date="January 2020 - May 2020">
                 <h3>MineralWare</h3>
                 <h4>Development Team Intern | Fort Worth, TX</h4>
                 <p>
                     <ul>
-                        <li>
-                        Successfully completed a semester-long internship, earning the trust and respectof my team and supervisors while working in an Agile development cycle
-                        </li>
-                        <li>
-                        Worked in Zope framework on the MineralWare web application using skills in HTML, CSS, Python, Javascript, Ajax, and SQL
-                        </li>
-                        <li>
-                        Overhauled all styles for the entire MineralWare application
-                        </li>
-                        <li>
-                        Redesigned the client-facing Tract Management page
-                        </li>
-                        <li>
-                        Implemented a system to automatically update static resources in the Mineral-Ware application upon release of new versions, solving a common client issue
-                        </li>
+                        <li>Successfully completed a semester-long internship, earning the trust and respectof my team and supervisors while working in an Agile development cycle</li>
+                        <li>Worked in Zope framework on the MineralWare web application using skills in HTML, CSS, Python, Javascript, Ajax, and SQL</li>
+                        <li>Overhauled all styles for the entire MineralWare application</li>
+                        <li>Redesigned the client-facing Tract Management page</li>
+                        <li>Implemented a system to automatically update static resources in the Mineral-Ware application upon release of new versions, solving a common client issue</li>
                     </ul>
                 </p>
             </div>
@@ -210,21 +180,7 @@
 
     <div id="education">
         <h2 class="heading">Education</h2>
-<!--         <div class="education-block">
-            <h3>University of Alabama</h3>
-            <span class="education-date">January 2023 - Est. August 2025</span>
-            <h4>Master of Science in Aerospace Engineering and Mechanics</h4>
-            <ul>
-                <li>
-                    Thesis-option distance MSAEM program as I work full-time at Terran Orbital
-                </li>
-                <li>
-                    Pursuing dual focus on space systems engineering and controls
-                </li>
-            </ul>
-        </div> -->
-        <!-- End .education-block -->
-	    
+        
         <div class="education-block">
             <h3>University of Texas at Arlington</h3>
             <span class="education-date">Jan 2019 - May 2022</span>
@@ -237,7 +193,7 @@
         </div>
         <!-- End .education-block -->
 
-	<div class="education-block">
+        <div class="education-block">
             <h3>University of Texas at Arlington</h3>
             <span class="education-date">Jan 2019 - May 2022</span>
             <h4>Certificate in Unmanned Vehicle Systems</h4>
@@ -295,14 +251,14 @@
                             UT Arlington Autonomous Robots course team projects that I completed along with teammates Allison Gardiner and Noah Walker.
                             <ul>
                                 <li>
-                                    Robot 1, ”Solomon”, solved a painter’s tape-demarcated maze with known configuration, starting point, and goal point using A* search with a Manhattan distance heuristic
+                                    Robot 1, ”Solomon”, solved a painter's tape-demarcated maze with known configuration, starting point, and goal point using A* search with a Manhattan distance heuristic
                                 </li>
                                 <li>
                                     Robot 2, ”Rehoboam”, using color and ultrasonic sensors, solved a similar maze with unknown initial position or maze configuration, with the goal of finding an object in the maze and pushing it out of position
                                 </li>
-				<li>
-				    Robots 3-6, "Babylon I, II, III, & IV", implemented the four behaviors of <a href="https://en.wikipedia.org/wiki/Braitenberg_vehicle">Braitenberg Vehicles</a>.
-				<li>
+                                <li>
+                                    Robots 3-6, "Babylon I, II, III, & IV", implemented the four behaviors of <a href="https://en.wikipedia.org/wiki/Braitenberg_vehicle">Braitenberg Vehicles</a>.
+                                <li>
                             </ul>
                         </p>
                         <a href="https://github.com/MichaelBonnet/CSE4360-Projects">View Project</a>
@@ -319,17 +275,17 @@
         <h2 class="heading">Skills</h2>
         <ul>
             <li>C++</li>
-	    <li>C</li>
-	    <li>Go</li>
-	    <li>Rust</li>
-	    <li>Ruby</li>
-	    <li>Python</li>
-	    <li>TypeScript</li>
-	    <li>JavaScript</li>
+            <li>C</li>
+            <li>Go</li>
+            <li>Rust</li>
+            <li>Ruby</li>
+            <li>Python</li>
+            <li>TypeScript</li>
+            <li>JavaScript</li>
             <li>Linux</li>
-	    <li>Spacecraft Software Design</li>
-	    <li>Spacecraft Mission Operations</li>
-	    <li>Spacecraft Mission Control Software</li>
+            <li>Spacecraft Flight Software</li>
+            <li>Spacecraft Mission Operations</li>
+            <li>Spacecraft Mission Control Software</li>
             <li>Robotics</li>
             <li>Unmanned Vehicle Systems</li>
             <li>MATLAB</li>
@@ -338,10 +294,10 @@
             <li>Pandas</li>
             <li>Numpy</li>
             <li>Matplotlib</li>
-            <li>Java</li>
-	    <li>JavaScript</li>
-	    <li>Spacecraft Dynamics</li>
-	    <li>Modeling and Simulation</li>
+            <li>Systems Toolkit (STK)</li>
+            <li>Spacecraft Dynamics</li>
+            <li>Orbital Mechanics</li>
+            <li>Modeling and Simulation</li>
         </ul>
     </div>
     <!-- End #skills -->
@@ -397,15 +353,6 @@
                         <li>
                             <a href="https://www.linkedin.com/in/michael-bonnet/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
-                        <!-- <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li> -->
                     </ul>
                 </div>
             </div>
